@@ -6,6 +6,7 @@ const BrandCard = ({brand}) => {
     const { id, name, img } = brand;
 
     const [product, setProduct] = useState(null);
+    //fetch vercel server url
 
     useEffect(() => {
         fetch('https://assignment-ten-complete-6cqb67ijn-irfan-khans-projects.vercel.app/brand')
