@@ -15,8 +15,9 @@ const AddProduct = () => {
         const description = form.description.value;
         const photo = form.photo.value;
         const rating = form.rating.value;
+        const brandname = form.brandname.value;
         
-        const newProduct = {name, type, price, description, photo, rating}
+        const newProduct = {name, type, price, description, photo, rating, brandname}
         console.log(newProduct);
 
         // send data to the server
@@ -35,7 +36,7 @@ const AddProduct = () => {
                     title: 'Success!',
                     text: 'user Added Successfully',
                     icon: 'success',
-                    confirmButtonText: 'Cool'
+                    confirmButtonText: 'Done'
                   })
             }
             form.reset();
@@ -119,6 +120,16 @@ const AddProduct = () => {
                         <label className="input-group">
 
                             <input type="text" name="rating" placeholder="give rating" className="input input-bordered w-full" />
+                        </label>
+                    </div>
+                    {/* Brand name  */}
+                    <div className="form-control md:w-full">
+                        <label className="label">
+                            <span className="label-text">Brand Name</span>
+                        </label>
+                        <label className="input-group">
+
+                            <input type="text" name="brandname" placeholder="Brand Name" className="input input-bordered w-full" />
                         </label>
                     </div>
 
