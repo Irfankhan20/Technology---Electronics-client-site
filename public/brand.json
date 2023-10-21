@@ -1,0 +1,34 @@
+ [
+      {
+        "id": 1,
+        "name": "Apple",
+        "img": "https://i.ibb.co/w482MFz/5a354ef694c9a9-4930814115134430626094.png"
+      },
+      {
+        "id": 2,
+        "name": "Samsung",
+        "img": "https://i.ibb.co/55tBjcZ/kisspng-samsung-galaxy-s7-samsung-galaxy-s6-logo-samsung-e-samsung-5abe275edf3c99-146441521522411358.png"
+      },
+      {
+        "id": 3,
+        "name": "Sony",
+        "img": "https://i.ibb.co/fp30ztB/kisspng-sony-vaio-logo-cdr-metallic-vector-5adace5cbe66e1-4908001315242891167799.png"
+      },
+      {
+        "id": 4,
+        "name": "Google",
+        "img": "https://i.ibb.co/8KyqF6r/kisspng-google-logo-googleplex-google-search-5b2cd7fd66a992-1457425415296655334205.png"
+      },
+      {
+        "id": 5,
+        "name": "Intel",
+        "img": "https://i.ibb.co/dj2NRxB/5a36cc8a580752-0610743315135407463606.png"
+      },
+      {
+        "id": 6,
+        "name": "Nokia",
+        "img": "https://i.ibb.co/MCLkdcb/kisspng-nokia-lumia-920-nokia-3-nokia-ozo-smartphone-pepsi-logo-5ac1b2f8b97a16-632485881522643704759.png"
+      }
+    ]
+  
+  
