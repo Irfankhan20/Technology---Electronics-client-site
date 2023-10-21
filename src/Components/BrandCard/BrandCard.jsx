@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const BrandCard = ({brand}) => {
     const { id, name, img } = brand;
     
-
+//console.log(id,name,img);
     const [product, setProduct] = useState(null);
   //
 
