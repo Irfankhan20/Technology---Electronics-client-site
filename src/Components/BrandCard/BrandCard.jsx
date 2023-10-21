@@ -4,11 +4,10 @@ import { useEffect, useState } from "react";
 
 const BrandCard = ({brand}) => {
     const { id, name, img } = brand;
-    console.log(id,name);
+    
 
     const [product, setProduct] = useState(null);
-//fetch vercel 
-//url   
+  //
 
     useEffect(() => {
         fetch('https://assignment-ten-complete-6cqb67ijn-irfan-khans-projects.vercel.app/brand')
